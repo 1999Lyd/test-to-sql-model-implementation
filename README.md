@@ -1,5 +1,5 @@
 # Hybrid Ranking Network for Text-to-SQL
-Code for our paper [Hybrid Ranking Network for Text-to-SQL](https://arxiv.org/abs/2008.04759) 
+reference [Hybrid Ranking Network for Text-to-SQL](https://arxiv.org/abs/2008.04759) 
 
 ## Environment Setup
 
@@ -30,5 +30,3 @@ The built image above contains processed data and is ready for training and eval
 Note: the WikiSQL evaluation script will encounter error when running in Windows system. Hence we included the fixed version for Windows User (run in root folder): `python wikisql_evaluate.py WikiSQL/data/test.jsonl WikiSQL/data/test.db output/test_out.jsonl`
 
 
-## Trained Model
-Trained model that can reproduce reported number on WikiSQL leaderboard is attached in the releases (see under "Releases" in the right column). Model prediction outputs are also attached.
